@@ -1,0 +1,33 @@
+{
+  "name": "fashion_book_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nthanhhai2909/fashion_book_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nthanhhai2909/fashion_book_backend/issues"
+  },
+  "homepage": "https://github.com/nthanhhai2909/fashion_book_backend#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.11.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.16",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.6.4",
+    "randomstring": "^1.1.5"
+  }
+}
